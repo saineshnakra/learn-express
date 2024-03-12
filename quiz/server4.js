@@ -25,7 +25,6 @@ const addMsgToRequest = function (req, res, next) {
         error: {message: 'users not found', status: 404}
     });
   }
-  
 }
 
 app.use(

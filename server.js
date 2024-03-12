@@ -62,4 +62,4 @@ app.get('/read/username/:name', (req, res) => {
   });
   res.send(usernames);
 });
-Footer
+
